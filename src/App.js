@@ -1,13 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
+import './App.css';
+
+import React from 'react';
+import Board from './components/Board';
 
 function App() {
     return ( <
-        >
+        div >
         <
-        h1 > Welcome to React Parcel Micro App! < /h1> <
-        p > Hard to get more minimal than this React app. < /p> <
-        />
+        h1 > TIC TAC TOE < /h1> <
+        Board / >
+        <
+        /div>
     );
 }
 
