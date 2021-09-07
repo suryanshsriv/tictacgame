@@ -3,9 +3,9 @@ import Square from './Square';
 
 const Board = () => {
     return ( <
-        div >
+        div className = "board" >
         <
-        div >
+        div className = "board-row" >
         <
         Square value = { 0 }
         /> <
@@ -14,7 +14,7 @@ const Board = () => {
         Square value = { 2 }
         /> <
         /div> <
-        div >
+        div className = "board-row" >
         <
         Square value = { 3 }
         /> <
@@ -23,7 +23,7 @@ const Board = () => {
         Square value = { 5 }
         /> <
         /div> <
-        div >
+        div className = "board-row" >
         <
         Square value = { 6 }
         /> <
